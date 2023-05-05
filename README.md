@@ -63,4 +63,5 @@ Endpoint {BaseURL}/user/userlist
 ```
 ```bash
 Request { "limit": "1", "limit": "10" }
+Header Authorization : Bearer {token}
 ```
