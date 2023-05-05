@@ -34,3 +34,33 @@ If you want to change the port, you can run the following command:
 php artisan serve --port 3000
 ```
 
+
+## Documentation API
+
+```bash
+BaseURL : localhost:8000/api
+```
+
+- Sign up
+```bash
+Endpoint {BaseURL}/auth/signup
+```
+```bash
+Request { "username": "anton", "password": "password" }
+```
+
+- Login
+```bash
+Endpoint {BaseURL}/auth/login
+```
+```bash
+Request { "username": "anton", "password": "password" }
+```
+
+- User list
+```bash
+Endpoint {BaseURL}/user/userlist
+```
+```bash
+Request { "limit": "1", "limit": "10" }
+```
