@@ -5,6 +5,11 @@ This service is built with PHP with Laravel.
 ## Requirements
 
 - PHP Version 7.4.33+
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- DBMS MySQL
+- Composer
 - Other needed modules
 
 ## Modules Used
@@ -16,6 +21,7 @@ This service is built with PHP with Laravel.
 ## Setup
 
 Create `.env` file by copy from `.env.example`  
+Download vendor/modules `composer install`
 
 ## Step running service
 
