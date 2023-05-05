@@ -62,6 +62,6 @@ Request { "username": "anton", "password": "password" }
 Endpoint {BaseURL}/user/userlist
 ```
 ```bash
-Request { "limit": "1", "limit": "10" }
+Request { "limit": "10", "page": "1" }
 Header Authorization : Bearer {token}
 ```
