@@ -21,7 +21,7 @@ This service is built with PHP with Laravel.
 ## Setup
 
 Create `.env` file by copy from `.env.example`  
-Download vendor/modules `composer install`
+Download vendor/modules, you can run command  `composer install`
 
 ## Step running service
 
