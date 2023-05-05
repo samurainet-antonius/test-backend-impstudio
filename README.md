@@ -21,7 +21,7 @@ Create `.env` file by copy from `.env.example`
 
 - migration and seed
 ```bash
-php artisan migrate --seed
+php artisan migrate:refresh --seed
 ```
 
 - run code (deafult port 8000)
