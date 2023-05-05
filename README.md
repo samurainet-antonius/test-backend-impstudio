@@ -17,7 +17,7 @@ This service is built with PHP with Laravel.
 
 Create `.env` file by copy from `.env.example`  
 
-## Step - Step
+## Step running service
 
 - migration and seed
 ```bash
